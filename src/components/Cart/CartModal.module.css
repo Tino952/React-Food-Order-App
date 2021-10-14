@@ -1,0 +1,95 @@
+.modal {
+  position: relative;
+  top: -37rem;
+  z-index: 2;
+}
+
+.backdrop {
+  position: fixed;
+  background-color: rgba(110, 108, 103, 0.5);
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.price {
+  color: coral;
+  font-size: 14px;
+}
+
+.quantity {
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 1.5rem;
+  border: 1px solid black;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+}
+
+.modify {
+  margin: auto 0;
+}
+
+.actions {
+  display: flex;
+  grid-gap: 0.4rem;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+
+.button {
+  font-size: 14px;
+  margin: 0 0.2rem;
+  border-radius: 3px;
+  background-color: white;
+  color: #4d1601;
+  border: 1px solid #4d1601;
+  text-align: center;
+  padding: 0.25rem 1.25rem;
+}
+
+.button:hover,
+.button:active {
+  background-color: #4d1601;
+  color: white;
+}
+
+.orderButton {
+  font-size: 14px;
+  margin: 0 0.2rem;
+  border-radius: 12px;
+  background-color: #4d1601;
+  border: 1px solid #4d1601;
+  color: white;
+  text-align: center;
+  padding: 0.25rem 1.25rem;
+}
+
+.orderButton:hover,
+.orderButton:active {
+  border-color: #b94517;
+}
+
+.closeButton {
+  font-size: 14px;
+  margin: 0 0.2rem;
+  border: 1px solid #4d1601;
+  border-radius: 12px;
+  background-color: white;
+  color: #4d1601;
+  text-align: center;
+  padding: 0.25rem 1.25rem;
+}
+
+.closeButton:hover,
+.closeButton:active {
+  background-color: #4d1601;
+  color: white;
+}

@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.description {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.price {
+  font-weight: bold;
+  color: coral;
+}

@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 12px;
+  width: 6rem;
+  grid-gap: 0.5rem;
+}
+
+.containerInput {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container label {
+  margin-right: 0.2rem;
+}
+
+.container input {
+  width: 40%;
+}
+
+.invalidInp {
+  outline: 1px solid red;
+  border: none;
+}
